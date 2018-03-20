@@ -82,6 +82,7 @@ gcloud container builds submit --tag gcr.io/YOUR_PROJECT_ID/go-grpc-hello:1.0 .
     ```bash
     /usr/share/google/dockercfg_update.sh
     ```
+    Or go to google cloud console(pantheon) container registry, i.e. from top left scroll down menu of console, select container registry(in Tools section). In the registry folders therein, find and click on the newly built image and go to the "Image details" page, then click "SHOW PULL COMMAND" on the top, it'll show the pull commands.
 
 1. Run your gRPC server's container:
 
